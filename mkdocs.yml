@@ -1,0 +1,53 @@
+site_name: Armchair Engineering
+site_url: https://armchairengineri.ng/
+repo_url: https://github.com/Armchair-Engineering/
+repo_name: Armchair-Engineering/
+
+theme:
+  name: material
+  logo: ./assets/images/ae_gray.png # burger menu logo
+  favicon: ./assets/images/nav.ico
+  features:
+    - navigation.instant
+    - navigation.tabs
+    #- navigation.sections
+    - navigation.expand
+    - navigation.footer
+
+extra_css:
+  - ./assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - attr_list
+
+plugins:
+  - search
+  - macros
+
+nav:
+  - Xol:
+      - About: README.md
+      - BOM: BOM.md
+      - Printing: printing.md
+      - Carriage Assembly: xol_carriage_assembly.md
+      - Toolhead Assembly: toolhead_assembly.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Armchair-Engineering
+      name: Armchair Engineering on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/armchairengineeringsux
+      name: Join Our Discord Server
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:email@armchairengineeri.ng
+      name: send us an email
+  generator: false
+
+
+copyright: Copyright &copy; 2023 Armchair Engineering
