@@ -26,7 +26,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - macros
+#  - macros
 
 nav:
   - Xol:
